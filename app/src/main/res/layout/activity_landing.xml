@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".landing">
 
     <LinearLayout
@@ -20,9 +21,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="30dp"
             android:fontFamily="@font/open_sans"
             android:text="Welcome"
+            android:textStyle="bold"
             android:textColor="@color/black"
             android:textSize="26sp" />
 
@@ -42,7 +44,7 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="18dp"
-                android:src="@drawable/donate"
+                android:src="@drawable/login"
                 tools:ignore="ContentDescription" />
 
             <TextView
@@ -52,7 +54,7 @@
                 android:layout_marginTop="135dp"
                 android:fontFamily="@font/open_sans"
                 android:text="Login"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="18sp" />
 
         </androidx.cardview.widget.CardView>
@@ -62,7 +64,7 @@
             android:layout_width="300dp"
             android:layout_height="180dp"
             android:layout_marginStart="55dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:clickable="true"
             app:cardBackgroundColor="@color/colorPrimaryDark"
             app:cardCornerRadius="12dp"
@@ -74,7 +76,7 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="18dp"
-                android:src="@drawable/add"
+                android:src="@drawable/register"
                 tools:ignore="ContentDescription" />
 
             <TextView
@@ -84,7 +86,7 @@
                 android:layout_marginTop="135dp"
                 android:fontFamily="@font/open_sans"
                 android:text="Register"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="18sp" />
 
 
@@ -95,7 +97,7 @@
             android:layout_width="300dp"
             android:layout_height="180dp"
             android:layout_marginStart="55dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:clickable="true"
             app:cardBackgroundColor="@color/colorPrimaryDark"
             app:cardCornerRadius="12dp"
@@ -107,7 +109,7 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="18dp"
-                android:src="@drawable/about"
+                android:src="@drawable/people"
                 tools:ignore="ContentDescription" />
 
             <TextView
@@ -117,7 +119,7 @@
                 android:layout_marginTop="135dp"
                 android:fontFamily="@font/open_sans"
                 android:text="About"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="18sp" />
         </androidx.cardview.widget.CardView>
 
