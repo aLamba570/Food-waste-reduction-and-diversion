@@ -21,7 +21,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="30dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
             android:fontFamily="@font/open_sans"
             android:text="Welcome"
             android:textStyle="bold"
@@ -33,9 +34,10 @@
             android:layout_width="300dp"
             android:layout_height="180dp"
             android:layout_marginStart="55dp"
+            android:layout_marginTop="20dp"
             android:clickable="true"
             app:cardBackgroundColor="@color/colorPrimaryDark"
-            app:cardCornerRadius="12dp"
+            app:cardCornerRadius="20dp"
             app:cardElevation="5dp"
             tools:ignore="KeyboardInaccessibleWidget">
 
@@ -67,7 +69,7 @@
             android:layout_marginTop="20dp"
             android:clickable="true"
             app:cardBackgroundColor="@color/colorPrimaryDark"
-            app:cardCornerRadius="12dp"
+            app:cardCornerRadius="20dp"
             app:cardElevation="5dp"
             tools:ignore="KeyboardInaccessibleWidget">
 
@@ -100,7 +102,7 @@
             android:layout_marginTop="20dp"
             android:clickable="true"
             app:cardBackgroundColor="@color/colorPrimaryDark"
-            app:cardCornerRadius="12dp"
+            app:cardCornerRadius="20dp"
             app:cardElevation="5dp"
             tools:ignore="KeyboardInaccessibleWidget">
 
