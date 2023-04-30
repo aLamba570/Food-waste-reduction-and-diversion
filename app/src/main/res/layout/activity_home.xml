@@ -18,18 +18,18 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
+                android:layout_marginStart="120dp"
                 android:fontFamily="@font/open_sans"
-                android:textStyle="bold"
                 android:text="My Dashboard"
                 android:textColor="@color/black"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <GridLayout
                 android:layout_width="wrap_content"
@@ -48,6 +48,7 @@
                     android:layout_margin="10dp"
                     android:backgroundTint="@color/colorPrimaryDark"
                     android:clickable="true"
+                    android:focusable="true"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="5dp">
 
@@ -56,7 +57,8 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/baseline_send_24" />
+                        android:src="@drawable/baseline_send_24"
+                        tools:ignore="ImageContrastCheck" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -65,8 +67,8 @@
                         android:layout_marginTop="130dp"
                         android:fontFamily="@font/open_sans"
                         android:text="Donate"
-                        android:textColor="@color/white"
-                        android:textSize="18dp" />
+                        android:textColor="#455A64"
+                        android:textSize="18sp" />
                 </androidx.cardview.widget.CardView>
 
 
@@ -76,6 +78,7 @@
                     android:layout_height="165dp"
                     android:layout_margin="10dp"
                     android:clickable="true"
+                    android:focusable="true"
                     app:cardBackgroundColor="@color/colorPrimaryDark"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="5dp">
@@ -85,7 +88,8 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/baseline_call_received_24" />
+                        android:src="@drawable/baseline_call_received_24"
+                        tools:ignore="ImageContrastCheck" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -94,8 +98,8 @@
                         android:layout_marginTop="130dp"
                         android:fontFamily="@font/open_sans"
                         android:text="Receive"
-                        android:textColor="@color/white"
-                        android:textSize="18dp" />
+                        android:textColor="#455A64"
+                        android:textSize="18sp" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -104,6 +108,7 @@
                     android:layout_height="165dp"
                     android:layout_margin="10dp"
                     android:clickable="true"
+                    android:focusable="true"
                     app:cardBackgroundColor="@color/colorPrimaryDark"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="5dp">
@@ -113,7 +118,8 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/map" />
+                        android:src="@drawable/map"
+                        tools:ignore="ImageContrastCheck" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -122,8 +128,8 @@
                         android:layout_marginTop="130dp"
                         android:fontFamily="@font/open_sans"
                         android:text="Food Map"
-                        android:textColor="@color/white"
-                        android:textSize="18dp" />
+                        android:textColor="#455A64"
+                        android:textSize="18sp" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -132,6 +138,7 @@
                     android:layout_height="165dp"
                     android:layout_margin="10dp"
                     android:clickable="true"
+                    android:focusable="true"
                     app:cardBackgroundColor="@color/colorPrimaryDark"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="5dp">
@@ -141,7 +148,8 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/pin" />
+                        android:src="@drawable/baseline_person_pin_circle_24"
+                        tools:ignore="ImageContrastCheck" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -150,8 +158,8 @@
                         android:layout_marginTop="130dp"
                         android:fontFamily="@font/open_sans"
                         android:text="My Pins"
-                        android:textColor="@color/white"
-                        android:textSize="18dp" />
+                        android:textColor="#455A64"
+                        android:textSize="18sp" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -160,6 +168,7 @@
                     android:layout_height="165dp"
                     android:layout_margin="10dp"
                     android:clickable="true"
+                    android:focusable="true"
                     app:cardBackgroundColor="@color/colorPrimaryDark"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="5dp">
@@ -169,7 +178,8 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/history_1" />
+                        android:src="@drawable/history_1"
+                        tools:ignore="ImageContrastCheck" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -178,8 +188,8 @@
                         android:layout_marginTop="130dp"
                         android:fontFamily="@font/open_sans"
                         android:text="History"
-                        android:textColor="@color/white"
-                        android:textSize="18dp" />
+                        android:textColor="#455A64"
+                        android:textSize="18sp" />
                 </androidx.cardview.widget.CardView>
 
 
@@ -189,6 +199,7 @@
                     android:layout_height="165dp"
                     android:layout_margin="10dp"
                     android:clickable="true"
+                    android:focusable="true"
                     app:cardBackgroundColor="@color/colorPrimaryDark"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="5dp">
@@ -198,7 +209,8 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/people" />
+                        android:src="@drawable/people"
+                        tools:ignore="ImageContrastCheck" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -207,8 +219,8 @@
                         android:layout_marginTop="130dp"
                         android:fontFamily="@font/open_sans"
                         android:text="About Us"
-                        android:textColor="@color/white"
-                        android:textSize="18dp" />
+                        android:textColor="#455A64"
+                        android:textSize="18sp" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -217,6 +229,7 @@
                     android:layout_height="165dp"
                     android:layout_margin="10dp"
                     android:clickable="true"
+                    android:focusable="true"
                     app:cardBackgroundColor="@color/colorPrimaryDark"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="5dp">
@@ -226,7 +239,8 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/contact" />
+                        android:src="@drawable/contact"
+                        tools:ignore="ImageContrastCheck" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -236,7 +250,7 @@
                         android:fontFamily="@font/open_sans"
                         android:text="Contact Us"
                         android:textColor="@color/white"
-                        android:textSize="18dp" />
+                        android:textSize="18sp" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -245,6 +259,7 @@
                     android:layout_height="165dp"
                     android:layout_margin="10dp"
                     android:clickable="true"
+                    android:focusable="true"
                     app:cardBackgroundColor="@color/colorPrimaryDark"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="5dp">
@@ -254,7 +269,8 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/baseline_logout_24" />
+                        android:src="@drawable/baseline_logout_24"
+                        tools:ignore="ImageContrastCheck" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -264,7 +280,7 @@
                         android:fontFamily="@font/open_sans"
                         android:text="Log Out"
                         android:textColor="@color/white"
-                        android:textSize="18dp" />
+                        android:textSize="18sp" />
                 </androidx.cardview.widget.CardView>
 
 
