@@ -4,126 +4,104 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:background="@color/white"
     tools:context=".landing">
 
     <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="ScrollViewSize">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="28dp"
+            android:src="@drawable/_back2"
+            tools:ignore="ContentDescription" />
+
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="150dp"
-            android:layout_marginTop="20dp"
             android:fontFamily="@font/open_sans"
-            android:text="Welcome"
-            android:textStyle="bold"
+            android:text="WELCOME"
             android:textColor="@color/black"
-            android:textSize="26sp" />
+            android:justificationMode="inter_word"
+            android:textSize="25sp" />
+
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cardLogin"
-            android:layout_width="300dp"
-            android:layout_height="180dp"
-            android:layout_marginStart="55dp"
-            android:layout_marginTop="20dp"
+            android:id="@+id/insta"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
             android:clickable="true"
             app:cardBackgroundColor="@color/colorPrimaryDark"
             app:cardCornerRadius="20dp"
             app:cardElevation="5dp"
             tools:ignore="KeyboardInaccessibleWidget">
 
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="18dp"
-                android:src="@drawable/login"
-                tools:ignore="ContentDescription" />
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="135dp"
+                android:layout_gravity="center"
                 android:fontFamily="@font/open_sans"
                 android:text="Login"
-                android:textColor="@color/black"
-                android:textSize="18sp" />
+                android:textColor="@color/white"
+                android:textSize="25sp" />
 
         </androidx.cardview.widget.CardView>
 
+
         <androidx.cardview.widget.CardView
-            android:id="@+id/cardRegister"
-            android:layout_width="300dp"
-            android:layout_height="180dp"
-            android:layout_marginStart="55dp"
-            android:layout_marginTop="20dp"
+            android:id="@+id/tweet"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
             android:clickable="true"
             app:cardBackgroundColor="@color/colorPrimaryDark"
             app:cardCornerRadius="20dp"
             app:cardElevation="5dp"
             tools:ignore="KeyboardInaccessibleWidget">
 
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="18dp"
-                android:src="@drawable/register"
-                tools:ignore="ContentDescription" />
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="135dp"
+                android:layout_gravity="center"
                 android:fontFamily="@font/open_sans"
                 android:text="Register"
-                android:textColor="@color/black"
-                android:textSize="18sp" />
-
+                android:textColor="@color/white"
+                android:textSize="25sp" />
 
         </androidx.cardview.widget.CardView>
 
+
+
         <androidx.cardview.widget.CardView
-            android:id="@+id/cardAboutus"
-            android:layout_width="300dp"
-            android:layout_height="180dp"
-            android:layout_marginStart="55dp"
-            android:layout_marginTop="20dp"
+            android:id="@+id/face"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
             android:clickable="true"
             app:cardBackgroundColor="@color/colorPrimaryDark"
             app:cardCornerRadius="20dp"
             app:cardElevation="5dp"
             tools:ignore="KeyboardInaccessibleWidget">
 
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="18dp"
-                android:src="@drawable/people"
-                tools:ignore="ContentDescription" />
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="135dp"
+                android:layout_gravity="center"
                 android:fontFamily="@font/open_sans"
-                android:text="About"
-                android:textColor="@color/black"
-                android:textSize="18sp" />
+                android:text="About Us"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
         </androidx.cardview.widget.CardView>
+
 
     </LinearLayout>
 

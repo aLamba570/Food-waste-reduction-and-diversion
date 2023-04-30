@@ -45,5 +45,29 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        aboutus.setOnClickListener(new View.OnClickListener ()
+        {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), AboutActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        receive.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), ReceiverActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        contact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent k = new Intent(getApplicationContext(), ContactusActivity.class);
+            }
+        });
     }
 }

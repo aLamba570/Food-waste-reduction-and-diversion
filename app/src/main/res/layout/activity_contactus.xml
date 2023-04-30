@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".ContactusActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="-50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/round_back"
+            android:padding="15dp"
+            android:src="@drawable/baseline_person_24"
+            tools:ignore="ContentDescription" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/nameError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:hintAnimationEnabled="true"
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black"
+            app:boxStrokeColor="@color/black">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="52dp"
+                android:layout_marginEnd="27dp"
+                android:background="@drawable/edittext_background"
+                android:drawableStart="@drawable/name"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/open_sans"
+                android:hint="Full Name"
+                android:paddingStart="10dp"
+                android:textColor="#141414"
+                android:textColorHint="#141414"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emailError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:hintAnimationEnabled="true"
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black"
+            app:boxStrokeColor="@color/black">
+
+            <EditText
+                android:id="@+id/mEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="52dp"
+                android:layout_marginEnd="27dp"
+                android:background="@drawable/edittext_background"
+                android:drawableStart="@drawable/baseline_email_24"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/open_sans"
+                android:inputType="textEmailAddress"
+                android:hint="Email"
+                android:paddingStart="10dp"
+                android:textColor="#141414"
+                android:textColorHint="#141414"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/MessageError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:hintAnimationEnabled="true"
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black"
+            app:boxStrokeColor="@color/black">
+
+            <EditText
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="52dp"
+                android:layout_marginEnd="27dp"
+                android:background="@drawable/edittext_background"
+                android:drawableStart="@drawable/baseline_message_24"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/open_sans"
+                android:inputType="text"
+                android:hint="Write your message."
+                android:paddingStart="10dp"
+                android:textColor="#141414"
+                android:textColorHint="#141414"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_background"
+            android:text="Submit"
+            android:fontFamily="@font/open_sans"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:ignore="UnusedAttribute" />
+
+    </LinearLayout>
+
+</LinearLayout>

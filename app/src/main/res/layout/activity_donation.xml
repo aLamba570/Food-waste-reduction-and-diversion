@@ -163,11 +163,12 @@
                     </com.google.android.material.textfield.TextInputLayout>
 
 
-                    <fragment
-                        class="com.google.android.libraries.maps.SupportMapFragment"
-                        android:layout_width="match_parent"
-                        android:layout_marginTop="20dp"
-                        android:layout_height="300dp"/>
+<!--                    <fragment-->
+<!--                        android:id="@+id/google_map"-->
+<!--                        class="com.google.android.libraries.maps.SupportMapFragment"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_marginTop="20dp"-->
+<!--                        android:layout_height="300dp"/>-->
 
                     <Button
                         android:id="@+id/submit"

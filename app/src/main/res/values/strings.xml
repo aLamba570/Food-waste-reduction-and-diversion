@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Aahaar</string>
+    <string name="app_name" translatable="false">Aahaar</string>
+    <string name="name_error" translatable="false">Please enter your name</string>
+    <string name="phone_error" translatable="false">Please enter your phone number</string>
+    <string name="email_error" translatable="false">Please enter your email address</string>
+    <string name="error_invalid_email" translatable="false">This email address is invalid</string>
+    <string name="password_error" translatable="false">Please enter a password</string>
+    <string name="error_invalid_password" translatable="false">Please enter a minimum password of 6 characters</string>
 </resources>
