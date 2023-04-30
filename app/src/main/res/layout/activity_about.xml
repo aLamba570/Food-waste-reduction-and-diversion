@@ -6,4 +6,148 @@
     android:layout_height="match_parent"
     tools:context=".AboutActivity">
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="28dp"
+            android:src="@drawable/_back2"
+            tools:ignore="ContentDescription" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:fontFamily="@font/open_sans"
+            android:text="About Us"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:textSize="20sp" />
+        
+        
+        <androidx.cardview.widget.CardView
+            android:id="@+id/insta"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            app:cardBackgroundColor="@color/colorPrimaryDark"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp"
+            tools:ignore="KeyboardInaccessibleWidget">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/instagram"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/open_sans"
+                android:text="Instagram"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tweet"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            app:cardBackgroundColor="@color/colorPrimaryDark"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp"
+            tools:ignore="KeyboardInaccessibleWidget">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/twitter"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/open_sans"
+                android:text="Twitter"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/face"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            app:cardBackgroundColor="@color/colorPrimaryDark"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp"
+            tools:ignore="KeyboardInaccessibleWidget">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/r"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/open_sans"
+                android:text="Linkedin"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/open_sans"
+            android:text="Version 1.0.0"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/open_sans"
+            android:text="Made with ❤️ by Ankush"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
