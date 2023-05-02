@@ -149,7 +149,7 @@
                             android:layout_marginTop="52dp"
                             android:layout_marginEnd="27dp"
                             android:background="@drawable/edittext_background"
-                            android:drawableStart="@drawable/baseline_local_phone_24"
+                            android:drawableStart="@drawable/baseline_description_24"
                             android:drawablePadding="20dp"
                             android:fontFamily="@font/open_sans"
                             android:hint="Description"
@@ -162,13 +162,15 @@
 
                     </com.google.android.material.textfield.TextInputLayout>
 
-
 <!--                    <fragment-->
 <!--                        android:id="@+id/google_map"-->
-<!--                        class="com.google.android.libraries.maps.SupportMapFragment"-->
+<!--                        xmlns:map="http://schemas.android.com/apk/res-auto"-->
+<!--                        android:name="com.google.android.gms.maps.SupportMapFragment"-->
 <!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="200dp"-->
 <!--                        android:layout_marginTop="20dp"-->
-<!--                        android:layout_height="300dp"/>-->
+<!--                        map:uiZoomControls="true"-->
+<!--                        tools:ignore="FragmentTagUsage" />-->
 
                     <Button
                         android:id="@+id/submit"

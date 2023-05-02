@@ -69,5 +69,7 @@ public class HomeActivity extends AppCompatActivity {
                 Intent k = new Intent(getApplicationContext(), ContactusActivity.class);
             }
         });
+
+
     }
 }

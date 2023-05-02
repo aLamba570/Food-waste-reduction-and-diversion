@@ -44,7 +44,7 @@ public class DonationActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         mStore = FirebaseFirestore.getInstance();
 
-        mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.google_map);
+        //mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.google_map);
 //        if(ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION));
     }
 //
